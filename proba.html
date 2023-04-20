@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .container {
+            background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/07/Beer-Image-HD.jpg);
+            width: 100%;
+            height: 600px;
+            background-size: cover;
+            background-position: center;
+            background-blend-mode: multiply;
+            background-color: rgb(65, 64, 64);
+            color: white;
+        }
+
+
+
+        .beerblock1 {
+            padding: 100px 100px 80px 100px;
+            display: flex;
+
+        }
+
+
+        .beer {
+            display: flex;
+        }
+
+        .beer div {
+            margin: 0 30px
+        }
+
+        .beerimg {
+            height: 150px;
+        }
+
+        .beer p {
+            width: 200px;
+        }
+
+        .container h3 {
+            font-size: 35px;
+            padding-bottom: 50px;
+            margin-left: 30px;
+        }
+
+        .container p {
+            font-size: 20px;
+        }
+
+        .tovabbgomb {
+            color: white;
+            border: 1px solid white;
+            background: none;
+            font-size: 20px;
+            padding: 5px 10px;
+            border-radius: 10px;
+            margin: 30px 0 0 10px;
+        }
+
+        .tovabbgomb:hover {
+            transform: scale(1.1);
+            transition: 0.5s;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="header">
+
+        <div class="logo">
+            <img src="https://seeklogo.com/images/B/budweiser-2008-logo-606174B0B4-seeklogo.com.png">
+        </div>
+        <div class=" headerlist">
+
+            <ul>
+                <li>Kínálat</li>
+                <li>Ajánlatok</li>
+                <li>Rólunk</li>
+                <li>GYIK</li>
+                <li>Kapcsolat</li>
+
+            </ul>
+        </div>
+
+    </div>
+
+
+    <div class="container">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+
+
+
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+
+
+
+
+                    <div class="beerblock1">
+                        <div style="margin-left: 50px;">
+                            <div>
+                                <h3>Lager</h3>
+                            </div>
+                            <div class="beer">
+
+                                <div>
+                                    <p>A lager sör egy hagyományos stílusú, alacsonyabb hőmérsékleten erjesztett sör. A
+                                        lager
+                                        sör
+                                        népszerű
+                                        az egész világon, és a legtöbb nagy sörgyártó kínálatában megtalálható.</p>
+                                </div>
+                                <div><img class="beerimg"
+                                        src="https://www.hopstore.fr/wp-content/uploads/2022/09/lager.webp">
+                                    <button class="tovabbgomb">Tovább</button>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div style="margin-right: 50px;">
+                            <div>
+                                <h3>Ale</h3>
+                            </div>
+                            <div class="beer">
+                                <div>
+                                    <p>Az egyik legismertebb felső erjesztésű sör az Ale, brit sörfajta, melynek színe a
+                                        világos
+                                        sárgától a sötétebb rubinig, szinte feketéig terjed.</p>
+                                </div>
+                                <div>
+                                    <img class="beerimg"
+                                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRMHuK326xy8v6R_oAhdewaVLMJ0bpQqfObg&usqp=CAU">
+                                    <button class="tovabbgomb">Tovább</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                    </div>
+
+
+                </div>
+
+
+
+                <div class="item">
+
+
+                    <div class="beerblock1">
+                        <div style="margin-left: 50px;">
+                            <div>
+                                <h3>Lambic</h3>
+                            </div>
+                            <div class="beer">
+
+                                <div>
+                                    <p>A legismertebb spontán erjesztésű sörfajta a Lambic. Ez a fajta a 15. században
+                                        született, hazája Belgium. Nevét Lembeek faluról kapta, ahol először
+                                        készítették.</p>
+                                </div>
+                                <div><img class="beerimg"
+                                        src="https://www.hopculture.com/wp-content/uploads/2019/09/arton1-9d8ee.jpg">
+                                    <button class="tovabbgomb">Tovább</button>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div style="margin-right: 50px;">
+                            <div>
+                                <h3>IPA </h3>
+                            </div>
+                            <div class="beer">
+
+                                <div>
+                                    <p>A sörforradalom berobbanásával lett mindenki által ismert sörtípus, talán a
+                                        leginkább ismert a sörös világban. Nagy közönségkedvenc, mert teljesen extra
+                                        ízvilággal rendelkezik a sok komlónak
+                                        köszönhetően.</p>
+                                </div>
+                                <div><img class="beerimg"
+                                        src="https://hips.hearstapps.com/amv-prod-gp.s3.amazonaws.com/gearpatrol/wp-content/uploads/2020/02/Grocery-Store-IPAs-Gear-Patrol-lead-full.jpg">
+                                    <button class="tovabbgomb">Tovább</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+                <div class="item">
+
+
+
+
+                    <div class="beerblock1">
+                        <div style="margin-left: 50px;">
+                            <div>
+                                <h3>APA</h3>
+                            </div>
+                            <div class="beer">
+
+                                <div>
+                                    <p>Az "American" szó az újvilági komlók felhasználására vonatkozik, amelyek virágos,
+                                        gyümölcsös, citrusszerű, fenyős, gyantás ízvilágot kölcsönöznek az ezzel főzött
+                                        söröknek.</p>
+                                </div>
+                                <div><img class="beerimg"
+                                        src="https://alt-brewery.com/wp-content/uploads/2021/08/apache-apa.jpg">
+                                    <button class="tovabbgomb">Tovább</button>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div style="margin-right: 50px;">
+                            <div>
+                                <h3>Barna sör</h3>
+                            </div>
+                            <div class="beer">
+                                <div>
+                                    <p>Ez következik a világos sörök után ismertségben, abszolút beépült a köztudatba.
+                                        Mind ízben, mind színben, mind erősségben rávernek a világos sörökre. </p>
+                                </div>
+                                <div>
+                                    <img class="beerimg"
+                                        src="https://www.winemag.com/wp-content/uploads/2022/03/03_22_Brown_Ale_Roundup_HERO_GettyImages-598085970_1920x1280-700x461.jpg">
+                                    <button class="tovabbgomb">Tovább</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                    </div>
+
+
+
+
+
+
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+</body>
+
+</html>
